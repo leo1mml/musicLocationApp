@@ -12,15 +12,27 @@ import AVFoundation
 
 
 class InterfaceController: WKInterfaceController {
-
+    //MARK: - IB
+  
+  @IBOutlet var play: WKInterfaceMovie!
     //MARK: - Property
     var audioPlayer = AVAudioPlayer()
   
     //MARK: - View
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-      var soundPath = Bundle.main.path(forResource: "Reynosomechanics", ofType: "m4a")
-      var soundPathUrl = URL(fileURLWithPath: soundPath!)
+      let soundPath = Bundle.main.path(forResource: "Reynosomechanics", ofType: "m4a")
+      let soundPathUrl = URL(fileURLWithPath: soundPath!)
+//      do {
+//        try audioPlayer = AVAudioPlayer(contentsOf: soundPathUrl)
+//        audioPlayer.prepareToPlay()
+//        audioPlayer.play()
+//      } catch {
+//        print("error in audioPlay")
+//      }
+      play.setLoops(true)
+      play.setMovieURL(soundPathUrl)
+      
       
       
     }

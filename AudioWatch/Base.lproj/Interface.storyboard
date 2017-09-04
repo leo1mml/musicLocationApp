@@ -14,10 +14,14 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AudioWatch" customModuleProvider="target">
                     <items>
-                        <movie width="1" height="100" alignment="left" id="me7-vS-dMv"/>
+                        <movie width="1" height="100" alignment="left" id="OKq-et-hWt"/>
                     </items>
+                    <connections>
+                        <outlet property="play" destination="OKq-et-hWt" id="edq-wg-L1G"/>
+                    </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="-55" y="54"/>
         </scene>
     </scenes>
 </document>
