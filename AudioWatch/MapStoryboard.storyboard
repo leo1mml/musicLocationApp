@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FwT-wv-sX5">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Mapa Musical-->
+        <scene sceneID="w1L-cn-UYl">
+            <objects>
+                <controller id="FwT-wv-sX5" customClass="mapaMusical" customModule="AudioWatch_Extension">
+                    <items>
+                        <map height="100" alignment="left" id="t4y-R4-nqX"/>
+                    </items>
+                    <connections>
+                        <outlet property="viewDoMapa" destination="t4y-R4-nqX" id="Ek5-Kk-5hF"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="66" y="61"/>
+        </scene>
+    </scenes>
+</document>
