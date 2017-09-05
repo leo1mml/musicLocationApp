@@ -9,19 +9,48 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--FirstScreen-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AudioWatch" customModuleProvider="target">
+                <controller identifier="FirstScreen" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AudioWatch" customModuleProvider="target">
                     <items>
-                        <movie width="1" height="100" alignment="left" id="OKq-et-hWt"/>
+                        <inlineMovie width="136" height="4" alignment="left" loops="YES" id="YpO-NP-mwP"/>
+                        <group width="1" height="87" alignment="left" layout="vertical" id="vel-DG-K99">
+                            <items>
+                                <button width="1" alignment="left" title="Play" id="hMT-Nc-wAH">
+                                    <color key="titleColor" red="0.56733812427354646" green="0.81590545142831172" blue="0.8628692626953125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="activePlay" destination="AgC-eL-Hgc" id="j8Z-bz-BV7"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Pause" id="Zqx-9p-inQ">
+                                    <color key="titleColor" red="0.73248291015625" green="0.55129785040509882" blue="0.47894738425011152" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="activePause" destination="AgC-eL-Hgc" id="VFa-3Z-SYe"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Next" id="juV-yo-OGG">
+                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                            <connections>
+                                <segue destination="FxH-99-LTb" kind="push" id="81e-of-iwk"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
-                        <outlet property="play" destination="OKq-et-hWt" id="edq-wg-L1G"/>
+                        <outlet property="play" destination="YpO-NP-mwP" id="j9j-0R-dFE"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-55" y="54"/>
+            <point key="canvasLocation" x="-262" y="8"/>
+        </scene>
+        <!--SecondScreen-->
+        <scene sceneID="iBL-tF-NGC">
+            <objects>
+                <controller identifier="SecondScreen" id="FxH-99-LTb"/>
+            </objects>
+            <point key="canvasLocation" x="-17" y="17"/>
         </scene>
     </scenes>
 </document>

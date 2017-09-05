@@ -14,26 +14,31 @@ import AVFoundation
 class InterfaceController: WKInterfaceController {
     //MARK: - IB
   
-  @IBOutlet var play: WKInterfaceMovie!
+  @IBAction func activePause() {
+    play.pause()
+  }
+
+  @IBAction func activePlay() {
+    play.play()
+  }
+ 
+  @IBOutlet var play: WKInterfaceInlineMovie!
+  
     //MARK: - Property
     var audioPlayer = AVAudioPlayer()
+    let audioPathKey = AudioPathChaveValor()
+  
+ 
   
     //MARK: - View
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-      let soundPath = Bundle.main.path(forResource: "Reynosomechanics", ofType: "m4a")
-      let soundPathUrl = URL(fileURLWithPath: soundPath!)
-//      do {
-//        try audioPlayer = AVAudioPlayer(contentsOf: soundPathUrl)
-//        audioPlayer.prepareToPlay()
-//        audioPlayer.play()
-//      } catch {
-//        print("error in audioPlay")
+        soundConfig()
+//      guard let key = context as? String else {
+//        return
 //      }
-      play.setLoops(true)
-      play.setMovieURL(soundPathUrl)
       
-      
+//      let soundPath = Bundle.main.path(forResource: key, ofType: AudioPathChaveValor.regiaoMusica[key])
       
     }
     
@@ -46,5 +51,34 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
+  
+  
+  
+   //MARK: - Method
+  func soundConfig(){
+    let soundPath = Bundle.main.path(forResource: "Ceilandia", ofType: "m4a")
+    let soundPathUrl = URL(fileURLWithPath: soundPath!)
+    self.play.setMovieURL(soundPathUrl)
+    self.play.playFromBeginning()
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  override func dismissMediaPlayerController() {
+    
+  }
 
 }

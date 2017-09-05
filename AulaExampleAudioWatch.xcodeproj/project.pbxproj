@@ -19,7 +19,13 @@
 		3D38B2ED1F5DF0730067F0A6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38B2EC1F5DF0730067F0A6 /* ExtensionDelegate.swift */; };
 		3D38B2EF1F5DF0730067F0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B2EE1F5DF0730067F0A6 /* Assets.xcassets */; };
 		3D38B2F31F5DF0730067F0A6 /* AudioWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3D38B2D91F5DF0730067F0A6 /* AudioWatch.app */; };
-		3D38B2FD1F5DF5820067F0A6 /* Reynosomechanics.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B2FC1F5DF5820067F0A6 /* Reynosomechanics.m4a */; };
+		3D38B2FF1F5E12D80067F0A6 /* AudioPathChaveValor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38B2FE1F5E12D80067F0A6 /* AudioPathChaveValor.swift */; };
+		3D38B30C1F5E4AD80067F0A6 /* Taguatinga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B3071F5E4AD80067F0A6 /* Taguatinga.m4a */; };
+		3D38B30D1F5E4AD80067F0A6 /* Guara.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B3081F5E4AD80067F0A6 /* Guara.m4a */; };
+		3D38B30E1F5E4AD80067F0A6 /* Plano.aifc in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B3091F5E4AD80067F0A6 /* Plano.aifc */; };
+		3D38B30F1F5E4AD80067F0A6 /* Cruzeiro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B30A1F5E4AD80067F0A6 /* Cruzeiro.m4a */; };
+		3D38B3101F5E4AD80067F0A6 /* Ceilandia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B30B1F5E4AD80067F0A6 /* Ceilandia.m4a */; };
+		3D38B3121F5E4CC70067F0A6 /* AudioPathChaveValor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38B2FE1F5E12D80067F0A6 /* AudioPathChaveValor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +87,12 @@
 		3D38B2EC1F5DF0730067F0A6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		3D38B2EE1F5DF0730067F0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D38B2F01F5DF0730067F0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D38B2FC1F5DF5820067F0A6 /* Reynosomechanics.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reynosomechanics.m4a; sourceTree = "<group>"; };
+		3D38B2FE1F5E12D80067F0A6 /* AudioPathChaveValor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioPathChaveValor.swift; path = ../AudioPathChaveValor.swift; sourceTree = "<group>"; };
+		3D38B3071F5E4AD80067F0A6 /* Taguatinga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Taguatinga.m4a; sourceTree = "<group>"; };
+		3D38B3081F5E4AD80067F0A6 /* Guara.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guara.m4a; sourceTree = "<group>"; };
+		3D38B3091F5E4AD80067F0A6 /* Plano.aifc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plano.aifc; sourceTree = "<group>"; };
+		3D38B30A1F5E4AD80067F0A6 /* Cruzeiro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cruzeiro.m4a; sourceTree = "<group>"; };
+		3D38B30B1F5E4AD80067F0A6 /* Ceilandia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ceilandia.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +116,8 @@
 		3D38B2B91F5DF0200067F0A6 = {
 			isa = PBXGroup;
 			children = (
-				3D38B2C41F5DF0210067F0A6 /* AulaExampleAudioWatch */,
-				3D38B2DA1F5DF0730067F0A6 /* AudioWatch */,
-				3D38B2E91F5DF0730067F0A6 /* AudioWatch Extension */,
+				3D38B3041F5E18930067F0A6 /* iOS */,
+				3D38B3021F5E186D0067F0A6 /* AppWatch */,
 				3D38B2C31F5DF0210067F0A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,7 +148,6 @@
 		3D38B2DA1F5DF0730067F0A6 /* AudioWatch */ = {
 			isa = PBXGroup;
 			children = (
-				3D38B2FC1F5DF5820067F0A6 /* Reynosomechanics.m4a */,
 				3D38B2DB1F5DF0730067F0A6 /* Interface.storyboard */,
 				3D38B2DE1F5DF0730067F0A6 /* Assets.xcassets */,
 				3D38B2E01F5DF0730067F0A6 /* Info.plist */,
@@ -149,12 +158,67 @@
 		3D38B2E91F5DF0730067F0A6 /* AudioWatch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3D38B2FE1F5E12D80067F0A6 /* AudioPathChaveValor.swift */,
 				3D38B2EA1F5DF0730067F0A6 /* InterfaceController.swift */,
 				3D38B2EC1F5DF0730067F0A6 /* ExtensionDelegate.swift */,
 				3D38B2EE1F5DF0730067F0A6 /* Assets.xcassets */,
 				3D38B2F01F5DF0730067F0A6 /* Info.plist */,
 			);
 			path = "AudioWatch Extension";
+			sourceTree = "<group>";
+		};
+		3D38B3001F5E18540067F0A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B2E91F5DF0730067F0A6 /* AudioWatch Extension */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3D38B3011F5E18580067F0A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B2DA1F5DF0730067F0A6 /* AudioWatch */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3D38B3021F5E186D0067F0A6 /* AppWatch */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B3051F5E19C10067F0A6 /* Resources */,
+				3D38B3031F5E18830067F0A6 /* Model */,
+				3D38B3001F5E18540067F0A6 /* Controller */,
+				3D38B3011F5E18580067F0A6 /* View */,
+			);
+			name = AppWatch;
+			sourceTree = "<group>";
+		};
+		3D38B3031F5E18830067F0A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3D38B3041F5E18930067F0A6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B2C41F5DF0210067F0A6 /* AulaExampleAudioWatch */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3D38B3051F5E19C10067F0A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B3071F5E4AD80067F0A6 /* Taguatinga.m4a */,
+				3D38B3081F5E4AD80067F0A6 /* Guara.m4a */,
+				3D38B3091F5E4AD80067F0A6 /* Plano.aifc */,
+				3D38B30A1F5E4AD80067F0A6 /* Cruzeiro.m4a */,
+				3D38B30B1F5E4AD80067F0A6 /* Ceilandia.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,8 +348,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D38B2FD1F5DF5820067F0A6 /* Reynosomechanics.m4a in Resources */,
+				3D38B3101F5E4AD80067F0A6 /* Ceilandia.m4a in Resources */,
+				3D38B30C1F5E4AD80067F0A6 /* Taguatinga.m4a in Resources */,
+				3D38B30D1F5E4AD80067F0A6 /* Guara.m4a in Resources */,
 				3D38B2EF1F5DF0730067F0A6 /* Assets.xcassets in Resources */,
+				3D38B30E1F5E4AD80067F0A6 /* Plano.aifc in Resources */,
+				3D38B30F1F5E4AD80067F0A6 /* Cruzeiro.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +366,7 @@
 			files = (
 				3D38B2C81F5DF0210067F0A6 /* ViewController.swift in Sources */,
 				3D38B2C61F5DF0210067F0A6 /* AppDelegate.swift in Sources */,
+				3D38B2FF1F5E12D80067F0A6 /* AudioPathChaveValor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +376,7 @@
 			files = (
 				3D38B2ED1F5DF0730067F0A6 /* ExtensionDelegate.swift in Sources */,
 				3D38B2EB1F5DF0730067F0A6 /* InterfaceController.swift in Sources */,
+				3D38B3121F5E4CC70067F0A6 /* AudioPathChaveValor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +631,7 @@
 				3D38B2D61F5DF0210067F0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D38B2F41F5DF0730067F0A6 /* Build configuration list for PBXNativeTarget "AudioWatch Extension" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +640,7 @@
 				3D38B2F61F5DF0730067F0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D38B2F81F5DF0730067F0A6 /* Build configuration list for PBXNativeTarget "AudioWatch" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +649,7 @@
 				3D38B2FA1F5DF0730067F0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
