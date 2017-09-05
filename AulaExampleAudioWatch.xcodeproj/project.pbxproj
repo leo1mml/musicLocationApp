@@ -19,7 +19,12 @@
 		3D38B2ED1F5DF0730067F0A6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38B2EC1F5DF0730067F0A6 /* ExtensionDelegate.swift */; };
 		3D38B2EF1F5DF0730067F0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B2EE1F5DF0730067F0A6 /* Assets.xcassets */; };
 		3D38B2F31F5DF0730067F0A6 /* AudioWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3D38B2D91F5DF0730067F0A6 /* AudioWatch.app */; };
-		3D38B2FD1F5DF5820067F0A6 /* Reynosomechanics.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B2FC1F5DF5820067F0A6 /* Reynosomechanics.m4a */; };
+		3DC995741F5F49C5001FF6C1 /* Ceilandia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9956F1F5F49C5001FF6C1 /* Ceilandia.m4a */; };
+		3DC995751F5F49C5001FF6C1 /* Cruzeiro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3DC995701F5F49C5001FF6C1 /* Cruzeiro.m4a */; };
+		3DC995761F5F49C5001FF6C1 /* Plano.aifc in Resources */ = {isa = PBXBuildFile; fileRef = 3DC995711F5F49C5001FF6C1 /* Plano.aifc */; };
+		3DC995771F5F49C5001FF6C1 /* Guara.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3DC995721F5F49C5001FF6C1 /* Guara.m4a */; };
+		3DC995781F5F49C5001FF6C1 /* Taguatinga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3DC995731F5F49C5001FF6C1 /* Taguatinga.m4a */; };
+		3DC9957A1F5F4A3E001FF6C1 /* AudioPathChaveValor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC995791F5F4A3E001FF6C1 /* AudioPathChaveValor.swift */; };
 		8A5116911F5F149C00FA2DA9 /* mapaMusical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5116901F5F149C00FA2DA9 /* mapaMusical.swift */; };
 		8A5116931F5F1D6900FA2DA9 /* MapStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5116921F5F1D6900FA2DA9 /* MapStoryboard.storyboard */; };
 /* End PBXBuildFile section */
@@ -83,7 +88,12 @@
 		3D38B2EC1F5DF0730067F0A6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		3D38B2EE1F5DF0730067F0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D38B2F01F5DF0730067F0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D38B2FC1F5DF5820067F0A6 /* Reynosomechanics.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reynosomechanics.m4a; sourceTree = "<group>"; };
+		3DC9956F1F5F49C5001FF6C1 /* Ceilandia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ceilandia.m4a; sourceTree = "<group>"; };
+		3DC995701F5F49C5001FF6C1 /* Cruzeiro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cruzeiro.m4a; sourceTree = "<group>"; };
+		3DC995711F5F49C5001FF6C1 /* Plano.aifc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plano.aifc; sourceTree = "<group>"; };
+		3DC995721F5F49C5001FF6C1 /* Guara.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guara.m4a; sourceTree = "<group>"; };
+		3DC995731F5F49C5001FF6C1 /* Taguatinga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Taguatinga.m4a; sourceTree = "<group>"; };
+		3DC995791F5F4A3E001FF6C1 /* AudioPathChaveValor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPathChaveValor.swift; sourceTree = "<group>"; };
 		8A5116901F5F149C00FA2DA9 /* mapaMusical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapaMusical.swift; sourceTree = "<group>"; };
 		8A5116921F5F1D6900FA2DA9 /* MapStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +119,7 @@
 		3D38B2B91F5DF0200067F0A6 = {
 			isa = PBXGroup;
 			children = (
+				3DC9956E1F5F4991001FF6C1 /* Resources */,
 				3D38B2C41F5DF0210067F0A6 /* AulaExampleAudioWatch */,
 				3D38B2DA1F5DF0730067F0A6 /* AudioWatch */,
 				3D38B2E91F5DF0730067F0A6 /* AudioWatch Extension */,
@@ -142,7 +153,6 @@
 		3D38B2DA1F5DF0730067F0A6 /* AudioWatch */ = {
 			isa = PBXGroup;
 			children = (
-				3D38B2FC1F5DF5820067F0A6 /* Reynosomechanics.m4a */,
 				3D38B2DB1F5DF0730067F0A6 /* Interface.storyboard */,
 				3D38B2DE1F5DF0730067F0A6 /* Assets.xcassets */,
 				3D38B2E01F5DF0730067F0A6 /* Info.plist */,
@@ -155,12 +165,25 @@
 			isa = PBXGroup;
 			children = (
 				3D38B2EA1F5DF0730067F0A6 /* InterfaceController.swift */,
+				3DC995791F5F4A3E001FF6C1 /* AudioPathChaveValor.swift */,
 				3D38B2EC1F5DF0730067F0A6 /* ExtensionDelegate.swift */,
 				3D38B2EE1F5DF0730067F0A6 /* Assets.xcassets */,
 				3D38B2F01F5DF0730067F0A6 /* Info.plist */,
 				8A5116901F5F149C00FA2DA9 /* mapaMusical.swift */,
 			);
 			path = "AudioWatch Extension";
+			sourceTree = "<group>";
+		};
+		3DC9956E1F5F4991001FF6C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9956F1F5F49C5001FF6C1 /* Ceilandia.m4a */,
+				3DC995701F5F49C5001FF6C1 /* Cruzeiro.m4a */,
+				3DC995711F5F49C5001FF6C1 /* Plano.aifc */,
+				3DC995721F5F49C5001FF6C1 /* Guara.m4a */,
+				3DC995731F5F49C5001FF6C1 /* Taguatinga.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,17 +254,17 @@
 				TargetAttributes = {
 					3D38B2C11F5DF0210067F0A6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = JC4QT73C9E;
+						DevelopmentTeam = RD6V8JKJ5P;
 						ProvisioningStyle = Automatic;
 					};
 					3D38B2D81F5DF0730067F0A6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = JC4QT73C9E;
+						DevelopmentTeam = RD6V8JKJ5P;
 						ProvisioningStyle = Automatic;
 					};
 					3D38B2E41F5DF0730067F0A6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = JC4QT73C9E;
+						DevelopmentTeam = RD6V8JKJ5P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -291,8 +314,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D38B2FD1F5DF5820067F0A6 /* Reynosomechanics.m4a in Resources */,
 				3D38B2EF1F5DF0730067F0A6 /* Assets.xcassets in Resources */,
+				3DC995761F5F49C5001FF6C1 /* Plano.aifc in Resources */,
+				3DC995741F5F49C5001FF6C1 /* Ceilandia.m4a in Resources */,
+				3DC995781F5F49C5001FF6C1 /* Taguatinga.m4a in Resources */,
+				3DC995771F5F49C5001FF6C1 /* Guara.m4a in Resources */,
+				3DC995751F5F49C5001FF6C1 /* Cruzeiro.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +341,7 @@
 			files = (
 				8A5116911F5F149C00FA2DA9 /* mapaMusical.swift in Sources */,
 				3D38B2ED1F5DF0730067F0A6 /* ExtensionDelegate.swift in Sources */,
+				3DC9957A1F5F4A3E001FF6C1 /* AudioPathChaveValor.swift in Sources */,
 				3D38B2EB1F5DF0730067F0A6 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,7 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JC4QT73C9E;
+				DEVELOPMENT_TEAM = RD6V8JKJ5P;
 				INFOPLIST_FILE = AulaExampleAudioWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch;
@@ -471,7 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JC4QT73C9E;
+				DEVELOPMENT_TEAM = RD6V8JKJ5P;
 				INFOPLIST_FILE = AulaExampleAudioWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch;
@@ -484,7 +512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = JC4QT73C9E;
+				DEVELOPMENT_TEAM = RD6V8JKJ5P;
 				INFOPLIST_FILE = "AudioWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch.watchkitapp.watchkitextension;
@@ -501,7 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = JC4QT73C9E;
+				DEVELOPMENT_TEAM = RD6V8JKJ5P;
 				INFOPLIST_FILE = "AudioWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch.watchkitapp.watchkitextension;
@@ -519,7 +547,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JC4QT73C9E;
+				DEVELOPMENT_TEAM = RD6V8JKJ5P;
 				IBSC_MODULE = AudioWatch_Extension;
 				INFOPLIST_FILE = AudioWatch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch.watchkitapp;
@@ -537,7 +565,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JC4QT73C9E;
+				DEVELOPMENT_TEAM = RD6V8JKJ5P;
 				IBSC_MODULE = AudioWatch_Extension;
 				INFOPLIST_FILE = AudioWatch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch.watchkitapp;

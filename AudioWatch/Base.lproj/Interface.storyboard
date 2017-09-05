@@ -14,10 +14,29 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AudioWatch" customModuleProvider="target">
                     <items>
-                        <movie width="1" height="100" alignment="left" id="me7-vS-dMv"/>
+                        <inlineMovie width="136" height="4" alignment="left" id="UPu-7g-vno"/>
+                        <group width="1" alignment="left" layout="vertical" id="29o-HA-2TQ">
+                            <items>
+                                <button width="1" alignment="left" title="Play" id="euW-sd-tdh">
+                                    <connections>
+                                        <action selector="Play" destination="AgC-eL-Hgc" id="zAK-p3-hMw"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Pause" id="TDz-Ep-869">
+                                    <connections>
+                                        <action selector="Pause" destination="AgC-eL-Hgc" id="2Nu-6M-lpv"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Next" id="R3F-Gt-afq"/>
                     </items>
+                    <connections>
+                        <outlet property="player" destination="UPu-7g-vno" id="nb1-WK-yrq"/>
+                    </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="54" y="17"/>
         </scene>
     </scenes>
 </document>

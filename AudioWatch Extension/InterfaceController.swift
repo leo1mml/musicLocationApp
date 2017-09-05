@@ -8,31 +8,61 @@
 
 import WatchKit
 import Foundation
-import AVFoundation
+
 
 
 class InterfaceController: WKInterfaceController {
 
-    //MARK: - Property
-    var audioPlayer = AVAudioPlayer()
+    //MARK: - IB
   
-    //MARK: - View
-    override func awake(withContext context: Any?) {
-        super.awake(withContext: context)
-      var soundPath = Bundle.main.path(forResource: "Reynosomechanics", ofType: "m4a")
-      var soundPathUrl = URL(fileURLWithPath: soundPath!)
-      
-      
-    }
+  @IBOutlet var player: WKInterfaceInlineMovie!
+  @IBAction func Play() {
+    player.play()
+  }
+  
+  
+  @IBAction func Pause() {
+    player.pause()
+  }
+  //MARK: - Property
+  
+  let audioPathKey = AudioPathChaveValor()
+  
+  
+  
+  //MARK: - View
+  override func awake(withContext context: Any?) {
+    super.awake(withContext: context)
+    soundConfig()
+  }
+  
+  override func willActivate() {
+    // This method is called when watch view controller is about to be visible to user
+    super.willActivate()
+  }
+  
+  override func didDeactivate() {
+    // This method is called when watch view controller is no longer visible
+    super.didDeactivate()
+  }
+  
+  
+  
+  //MARK: - Method
+  func soundConfig(){
     
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
+    //      guard let key = context as? String else {
+    //        return
+    //      }
     
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
-    }
+    //      let soundPath = Bundle.main.path(forResource: key, ofType: AudioPathChaveValor.regiaoMusica[key])
+    
+    let soundPath = Bundle.main.path(forResource: "Ceilandia", ofType: "m4a")
+    let soundPathUrl = URL(fileURLWithPath: soundPath!)
+    self.player.setMovieURL(soundPathUrl)
+    self.player.playFromBeginning()
+    
+}
+
 
 }
