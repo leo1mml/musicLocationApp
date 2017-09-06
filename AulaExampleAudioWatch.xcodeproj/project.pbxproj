@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083D40771F606773004E2100 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D40761F606773004E2100 /* MenuController.swift */; };
 		3D38B2C61F5DF0210067F0A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38B2C51F5DF0210067F0A6 /* AppDelegate.swift */; };
 		3D38B2C81F5DF0210067F0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38B2C71F5DF0210067F0A6 /* ViewController.swift */; };
 		3D38B2CB1F5DF0210067F0A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B2C91F5DF0210067F0A6 /* Main.storyboard */; };
@@ -72,6 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		083D40761F606773004E2100 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		3D38B2C21F5DF0210067F0A6 /* AulaExampleAudioWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaExampleAudioWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D38B2C51F5DF0210067F0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D38B2C71F5DF0210067F0A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,9 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				3D38B2DB1F5DF0730067F0A6 /* Interface.storyboard */,
+				8A5116921F5F1D6900FA2DA9 /* MapStoryboard.storyboard */,
 				3D38B2DE1F5DF0730067F0A6 /* Assets.xcassets */,
 				3D38B2E01F5DF0730067F0A6 /* Info.plist */,
-				8A5116921F5F1D6900FA2DA9 /* MapStoryboard.storyboard */,
 			);
 			path = AudioWatch;
 			sourceTree = "<group>";
@@ -164,12 +166,13 @@
 		3D38B2E91F5DF0730067F0A6 /* AudioWatch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				083D40761F606773004E2100 /* MenuController.swift */,
 				3D38B2EA1F5DF0730067F0A6 /* InterfaceController.swift */,
 				3DC995791F5F4A3E001FF6C1 /* AudioPathChaveValor.swift */,
+				8A5116901F5F149C00FA2DA9 /* mapaMusical.swift */,
 				3D38B2EC1F5DF0730067F0A6 /* ExtensionDelegate.swift */,
 				3D38B2EE1F5DF0730067F0A6 /* Assets.xcassets */,
 				3D38B2F01F5DF0730067F0A6 /* Info.plist */,
-				8A5116901F5F149C00FA2DA9 /* mapaMusical.swift */,
 			);
 			path = "AudioWatch Extension";
 			sourceTree = "<group>";
@@ -254,17 +257,17 @@
 				TargetAttributes = {
 					3D38B2C11F5DF0210067F0A6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = RD6V8JKJ5P;
+						DevelopmentTeam = JP3F8DJU56;
 						ProvisioningStyle = Automatic;
 					};
 					3D38B2D81F5DF0730067F0A6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = RD6V8JKJ5P;
+						DevelopmentTeam = JP3F8DJU56;
 						ProvisioningStyle = Automatic;
 					};
 					3D38B2E41F5DF0730067F0A6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = RD6V8JKJ5P;
+						DevelopmentTeam = JP3F8DJU56;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -339,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083D40771F606773004E2100 /* MenuController.swift in Sources */,
 				8A5116911F5F149C00FA2DA9 /* mapaMusical.swift in Sources */,
 				3D38B2ED1F5DF0730067F0A6 /* ExtensionDelegate.swift in Sources */,
 				3DC9957A1F5F4A3E001FF6C1 /* AudioPathChaveValor.swift in Sources */,
@@ -486,7 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RD6V8JKJ5P;
+				DEVELOPMENT_TEAM = JP3F8DJU56;
 				INFOPLIST_FILE = AulaExampleAudioWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch;
@@ -499,7 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RD6V8JKJ5P;
+				DEVELOPMENT_TEAM = JP3F8DJU56;
 				INFOPLIST_FILE = AulaExampleAudioWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch;
@@ -512,7 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = RD6V8JKJ5P;
+				DEVELOPMENT_TEAM = JP3F8DJU56;
 				INFOPLIST_FILE = "AudioWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch.watchkitapp.watchkitextension;
@@ -529,7 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = RD6V8JKJ5P;
+				DEVELOPMENT_TEAM = JP3F8DJU56;
 				INFOPLIST_FILE = "AudioWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch.watchkitapp.watchkitextension;
@@ -547,7 +551,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RD6V8JKJ5P;
+				DEVELOPMENT_TEAM = JP3F8DJU56;
 				IBSC_MODULE = AudioWatch_Extension;
 				INFOPLIST_FILE = AudioWatch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch.watchkitapp;
@@ -565,7 +569,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RD6V8JKJ5P;
+				DEVELOPMENT_TEAM = JP3F8DJU56;
 				IBSC_MODULE = AudioWatch_Extension;
 				INFOPLIST_FILE = AudioWatch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.AulaExampleAudioWatch.watchkitapp;

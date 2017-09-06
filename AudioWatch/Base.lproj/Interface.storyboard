@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YRR-es-K3X">
     <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,34 +9,55 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
     </dependencies>
     <scenes>
+        <!--Menu Controller-->
+        <scene sceneID="yRI-zi-6UI">
+            <objects>
+                <controller id="YRR-es-K3X" customClass="MenuController" customModule="AudioWatch_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="Plano" id="UfR-ja-fgW">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" identifier="plano" id="4Q6-XS-zh3"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Ceilandia" id="o06-A1-ymA">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" identifier="ceilandia" id="v0a-Oa-gyN"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Taguá" id="Ab0-cd-taV">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" identifier="tagua" id="32A-03-IWB"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-163" y="-38"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AudioWatch" customModuleProvider="target">
                     <items>
                         <inlineMovie width="136" height="4" alignment="left" id="UPu-7g-vno"/>
-                        <group width="1" alignment="left" layout="vertical" id="29o-HA-2TQ">
-                            <items>
-                                <button width="1" alignment="left" title="Play" id="euW-sd-tdh">
-                                    <connections>
-                                        <action selector="Play" destination="AgC-eL-Hgc" id="zAK-p3-hMw"/>
-                                    </connections>
-                                </button>
-                                <button width="1" alignment="left" title="Pause" id="TDz-Ep-869">
-                                    <connections>
-                                        <action selector="Pause" destination="AgC-eL-Hgc" id="2Nu-6M-lpv"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                        <button width="1" alignment="left" title="Next" id="R3F-Gt-afq"/>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Play" id="euW-sd-tdh">
+                            <connections>
+                                <action selector="Play" destination="AgC-eL-Hgc" id="zAK-p3-hMw"/>
+                            </connections>
+                        </button>
+                        <map height="100" alignment="center" id="XiZ-fV-6Bu"/>
                     </items>
                     <connections>
+                        <outlet property="mapView" destination="XiZ-fV-6Bu" id="Blt-ya-bHW"/>
+                        <outlet property="playButton" destination="euW-sd-tdh" id="yn2-wn-SFC"/>
                         <outlet property="player" destination="UPu-7g-vno" id="nb1-WK-yrq"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="54" y="17"/>
+            <point key="canvasLocation" x="-163" y="288"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="4Q6-XS-zh3"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -14,7 +14,7 @@
             <objects>
                 <controller id="FwT-wv-sX5" customClass="mapaMusical" customModule="AudioWatch_Extension">
                     <items>
-                        <map height="100" alignment="left" id="t4y-R4-nqX"/>
+                        <map width="0.90000000000000002" height="0.90000000000000002" alignment="center" verticalAlignment="center" id="t4y-R4-nqX"/>
                     </items>
                     <connections>
                         <outlet property="viewDoMapa" destination="t4y-R4-nqX" id="Ek5-Kk-5hF"/>
